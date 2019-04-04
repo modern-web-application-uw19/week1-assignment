@@ -4,7 +4,9 @@
   "description": "Week 1 Assignment",
   "main": "index.js",
   "scripts": {
-    "test": "eslint ./src && jest"
+    "lint": "eslint ./src",
+    "test:watch": "jest --watch",
+    "test": "npm run lint && jest"
   },
   "keywords": [],
   "author": "",

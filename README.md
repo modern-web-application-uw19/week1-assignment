@@ -12,6 +12,13 @@
    npm test
    ```
 4. Use `node` to run any files independently from the test suite. Example: `node ./src/timer/runTimer.js`.
+5. You can use these commands to run the lint and jest tests separately:
+  ```bash
+  # lint the code
+  npm run lint
+  # run jest tests in watch mode (handy for updating the code and seeing test results in real time)
+  npm run test:watch
+  ```
 
 ## Overview
 
@@ -26,6 +33,8 @@
    console.log(lovelaveQuote.render());
    // prints "<p>I am never so happy as when I am really engaged in good earnest...</p>"
    ```
+
+   * Note that you'll need to change the `module.exports` to export the class instead of an object.
 2. The folder **src/components** contains a file called `DivElement.js`. In this file, create a module that meets the following requirements:
    * Create a class called `DivElement` that extends the `HTMLElement` class created previously. You'll need to import the class made in step 1.
    * This class should be initialized with one argument: `content`.
