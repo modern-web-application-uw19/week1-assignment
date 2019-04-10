@@ -2,7 +2,7 @@
 
 ## Getting Started
 
-1. Fork this repository and clone the code to your machine.
+1. Fork this repository and clone asdfasdfasdfthe code to your machine.
 2. Install packages
    ```bash
    npm install
