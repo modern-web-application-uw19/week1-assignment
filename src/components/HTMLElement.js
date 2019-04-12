@@ -5,9 +5,9 @@ class HTMLElement {
         this.content = content;
     }
 
-    render(tag, content) {
-        return `<${this.tag}>${this.content}</${this.tag}>`;
-    }
+  render() {
+    return `<${this.tag}>${this.content}</${this.tag}>`;
+  }
 }
 
 const lovelaceQuote = new HTMLElement('p', 'I am never so happy as when I am really engaged in good earnest...');
