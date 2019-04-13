@@ -1,4 +1,4 @@
-import HTMLElement from './HTMLElement';
+const HTMLElement = require('./HTMLElement');
 // Define class here
 class DivElement extends HTMLElement {
   constructor(content) {
@@ -7,7 +7,7 @@ class DivElement extends HTMLElement {
 }
 
 // Export class here
-export default { DivElement };
+module.exports = DivElement;
 
 const div = new DivElement('I am a div');
 console.log('render', div.render());

@@ -1,5 +1,4 @@
-// const Timer = require('../src/timer/Timer');
-import Timer from '../src/timer/Timer';
+const Timer = require('../src/timer/Timer');
 
 describe('Timer class', () => {
   let classDefintion;
