@@ -10,6 +10,3 @@ class HTMLElement {
 }
 
 module.exports = HTMLElement;
-
-const html = new HTMLElement('p', 'Hello World');
-console.log(html.render());

@@ -8,6 +8,3 @@ class DivElement extends HTMLElement {
 
 // Export class here
 module.exports = DivElement;
-
-const div = new DivElement('I am a div');
-console.log('render', div.render());
