@@ -5,7 +5,7 @@ class HTMLElement {
   }
 
   render() {
-    return `<${this.tag}>${this.content}<${this.tag}/>`;
+    return `<${this.tag}>${this.content}</${this.tag}>`;
   }
 }
 

@@ -16,7 +16,7 @@ describe('Timer class', () => {
   });
 
   it('should use an arrow function instead of assigning this to a variable', () => {
-    const startFunction = Timer.start.toString();
+    const startFunction = Timer.prototype.start.toString();
     expect(startFunction).not.toContain('= this;');
   });
 });

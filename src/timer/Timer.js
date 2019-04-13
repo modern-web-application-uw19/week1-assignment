@@ -2,8 +2,9 @@ class Timer {
   constructor(seconds) {
     this.seconds = seconds;
   }
+
   start() {
-    var timerInterval = setInterval((instance) => {
+    const timerInterval = setInterval((instance) => {
       if (instance.seconds === 0) {
         clearInterval(timerInterval);
       }
@@ -14,7 +15,5 @@ class Timer {
   };
 }
 
+
 module.exports = Timer;
-
-
-
