@@ -1,4 +1,5 @@
-const Timer = require('../src/timer/Timer');
+// const Timer = require('../src/timer/Timer');
+import Timer from '../src/timer/Timer';
 
 describe('Timer class', () => {
   let classDefintion;
@@ -16,7 +17,7 @@ describe('Timer class', () => {
   });
 
   it('should use an arrow function instead of assigning this to a variable', () => {
-    const startFunction = Timer.prototype.start.toString();
+    const startFunction = Timer.start.toString();
     expect(startFunction).not.toContain('= this;');
   });
 });
