@@ -2,5 +2,19 @@ const HTMLElement = require('./HTMLElement');
 
 // Define class here
 
+class DivElement extends HTMLElement {
+  constructor(content) {
+    super(content);
+    this.content = content;
+  }
+
+  render() {
+    return `<div>${this.content}</div>`;
+  }
+}
+
+const andIThinkToMyself = new DivElement('What a wonderful world');
+console.log(andIThinkToMyself.render());
+
 // Export class here
-module.exports = {};
+module.exports = DivElement;
