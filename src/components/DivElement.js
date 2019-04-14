@@ -1,5 +1,4 @@
 const HTMLElement = require('./HTMLElement');
-//import HTMLElement from './HTMLElement'
 // Define class here
 class DivElement extends HTMLElement {
 
