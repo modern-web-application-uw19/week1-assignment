@@ -4,7 +4,7 @@
   "description": "Week 1 Assignment",
   "main": "index.js",
   "scripts": {
-    "lint": "eslint ./src",
+    "lint": "eslint ./src --fix" ,
     "test:watch": "jest --watch",
     "test": "npm run lint && jest"
   },
