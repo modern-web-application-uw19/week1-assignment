@@ -1,13 +1,15 @@
-const Timer = require('../src/timer/Timer');
+const Timer = require('../src/timer/Timer.js');
 
 describe('Timer class', () => {
   let classDefintion;
 
   beforeEach(() => {
     classDefintion = Timer.toString();
+    
   });
-
   it('should be defined with the keyword "class"', () => {
+    
+
     expect(classDefintion).toContain('class Timer');
   });
 
