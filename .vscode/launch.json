@@ -5,6 +5,23 @@
     "version": "0.2.0",
     "configurations": [
         {
+            "type": "zshdb",
+            "request": "launch",
+            "name": "Zsh-Debug (select script from list of sh files)",
+            "cwd": "${workspaceFolder}",
+            "program": "${command:SelectScriptName}",
+            "args": []
+        },
+
+        {
+            "type": "zshdb",
+            "request": "launch",
+            "name": "Zsh-Debug (type in script name)",
+            "cwd": "${workspaceFolder}",
+            "program": "${command:AskForScriptName}",
+            "args": []
+        },
+        {
             "type": "node",
             "request": "launch",
             "name": "Launch Program",
