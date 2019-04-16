@@ -14,4 +14,14 @@ Timer.prototype.start = function () {
   }, 1000);
 };
 
+// class Timer {
+//   constructor(seconds) {
+//     this.seconds = seconds;
+//   }
+
+//   start () {
+//     setInterval(())
+//   }
+// }
+
 module.exports = Timer;

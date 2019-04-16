@@ -8,7 +8,5 @@ class DivElement extends HTMLElement {
   }
 }
 
-// DivElement.prototype
-
 // Export class here
 module.exports = DivElement;
