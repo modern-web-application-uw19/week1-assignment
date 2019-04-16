@@ -4,4 +4,4 @@ Please fill out the information below in order to complete your assignment. Feel
 
 * Comfort rating on this assignment (1-5):2
 * Completion rating on this assignment (complete/incomplete): code works but tests fail
-* Github handles of code I've reviewed:
+* Github handles of code I've reviewed: zzxjoanw and katrinagd

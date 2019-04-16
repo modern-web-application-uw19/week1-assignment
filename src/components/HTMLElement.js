@@ -1,5 +1,5 @@
 // Define class here
-const HTMLElement = class {
+class HTMLElement {
   constructor(tag, content) {
     this.tag = tag;
     this.content = content;
@@ -14,4 +14,8 @@ const HTMLElement = class {
   }
 };
 // Export class here
-module.exports = { HTMLElement };
+module.exports = new HTMLElement();
+
+const lovelaveQuote = new HTMLElement('h1', 'I am never so happy as when I am really engaged in good earnest...');
+
+console.log(lovelaveQuote.render());
