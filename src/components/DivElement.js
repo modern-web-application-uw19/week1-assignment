@@ -1,6 +1,12 @@
+// Import HTML element here
 const HTMLElement = require('./HTMLElement');
 
 // Define class here
-// This is a test
+class DivElement extends HTMLElement {
+  constructor(content) {
+    super('div', content);
+  }
+}
+
 // Export class here
-module.exports = {};
+module.exports = DivElement;
