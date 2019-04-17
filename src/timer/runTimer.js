@@ -1,4 +1,11 @@
 const Timer = require('./Timer');
 
-const countdown = new Timer(10);
+class Countdown extends Timer {
+  constructor(seconds) {
+    super(seconds);
+    this.seconds = seconds;
+  }
+}
+
+const countdown = new Countdown(10);
 countdown.start();
