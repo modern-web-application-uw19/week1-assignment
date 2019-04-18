@@ -1,16 +1,19 @@
-class Timer{
+class Timer {
   constructor(seconds) {
     this.seconds = seconds;
   }
+  
   getTime(){
     return this.seconds;
   }
+  
   setTime(value){
     this.seconds = value;
   }
+  
   start(){
-    var seconds = this.getTime();
-    var timerInterval = setInterval(function() {
+    let seconds = this.getTime();
+    let timerInterval = setInterval(function() {
     if (seconds === 0) {
       clearInterval(timerInterval);
     }
@@ -19,4 +22,5 @@ class Timer{
     }, 1000);
     }
 }
+
 module.exports = Timer;
