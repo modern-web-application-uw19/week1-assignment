@@ -3,24 +3,24 @@ class Timer {
     this.seconds = seconds;
   }
   
-  getTime(){
+  getTime() {
     return this.seconds;
   }
   
-  setTime(value){
+  setTime(value) {
     this.seconds = value;
   }
   
-  start(){
+  start() {
     let seconds = this.getTime();
     let timerInterval = setInterval(function() {
-    if (seconds === 0) {
-      clearInterval(timerInterval);
-    }
-    console.log(seconds);
-    seconds -= 1;
+      if (seconds === 0) {
+        clearInterval(timerInterval);
+      }
+      console.log(seconds);
+      seconds -= 1;
     }, 1000);
-    }
+  }
 }
 
 module.exports = Timer;
