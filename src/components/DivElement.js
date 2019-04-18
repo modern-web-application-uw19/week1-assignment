@@ -2,8 +2,8 @@ const HTMLElement = require('./HTMLElement');
 // Define class here
 class DivElement extends HTMLElement {
   constructor(content) {
-  super('div', content);
-  super.render();
+    super('div', content);
+    super.render();
   }
 }
 const andIThinkToMyself = new DivElement('What a wonderful world');
