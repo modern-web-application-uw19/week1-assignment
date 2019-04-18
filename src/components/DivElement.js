@@ -14,4 +14,4 @@ console.log(andIThinkToMyself.render());
 // prints "<div>What a wonderful world</div>"
 
 // Export class here
-module.exports = {};
+module.exports = DivElement;
