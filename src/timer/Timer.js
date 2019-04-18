@@ -13,7 +13,7 @@ class Timer {
 
   start() {
     let seconds = this.getTime();
-    const timerInterval = setInterval(function() {
+    const timerInterval = setInterval(() => {
       if (seconds === 0) {
         clearInterval(timerInterval);
       }
