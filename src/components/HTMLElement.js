@@ -6,10 +6,7 @@ class HTMLElement {
   }
 
   render() {
-    if (this.content !== undefined) {
-      return `<${this.tag}>${this.content}</${this.tag}>`;
-    }
-    return `<div>${this.tag}</div>`;
+    return `<${this.tag}>${this.content}</${this.tag}>`;
   }
 }
 
