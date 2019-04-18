@@ -4,8 +4,8 @@ class HTMLElement {
     this.tag = tag;
     this.content = content;
   }
-  
-  render (){
+
+  render() {
     return `<${this.tag}>${this.content}</${this.tag}>`;
   }
 }
