@@ -12,8 +12,8 @@ class HTMLElement {
 module.exports = HTMLElement;
 
 // usage:
-// let lovelaceQuote = new HTMLElement('p',
-//     'I am never so happy as when I am really engaged in good earnest...');
-// console.log(lovelaceQuote.render());
+const lovelaceQuote = new HTMLElement('p',
+  'I am never so happy as when I am really engaged in good earnest...');
+console.log(lovelaceQuote.render());
 // output:
 // <p>I am never so happy as when I am really engaged in good earnest...</p>

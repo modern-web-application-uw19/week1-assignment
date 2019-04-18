@@ -9,7 +9,7 @@ class Timer {
         clearInterval(timerInterval);
       }
 
-      // console.log(this.seconds);
+      console.log(this.seconds);
       this.seconds -= 1;
     }, 1000);
   }
