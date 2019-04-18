@@ -8,3 +8,4 @@ class DivElement extends HTMLElement {
   }
 }
 
+module.exports = DivElement;
