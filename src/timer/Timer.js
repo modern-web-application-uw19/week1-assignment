@@ -2,18 +2,18 @@ class Timer {
   constructor(seconds) {
     this.seconds = seconds;
   }
-  
+
   getTime() {
     return this.seconds;
   }
-  
+
   setTime(value) {
     this.seconds = value;
   }
-  
+
   start() {
     let seconds = this.getTime();
-    let timerInterval = setInterval(function() {
+    const timerInterval = setInterval(function() {
       if (seconds === 0) {
         clearInterval(timerInterval);
       }
